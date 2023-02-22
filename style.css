@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+.container{
+    width: 1325px;
+    margin: 0 auto;
+}
+.bg-main{
+    background: rgb(46, 45, 45);
+}
+.main__prinsipi{
+    padding-top: 92px;
+    display: flex;
+    align-items: center;
+}
+.prinsip__left h1{
+    font-size: 90px;
+    line-height: 131.7%;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.1);
+}
+.prinsip__left h2{
+    font-size: 33px;
+    color: #FFFFFF;
+    border-left: 2px solid #86DA44;
+    padding-left: 33px;
+    transform: translateX(100px);
+}
+.grit{
+    color: #86DA44;
+}
+.number{
+    font-size: 80px;
+    line-height: 131.7%;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.1);
+    transform: translateX(15px);
+}
+.text{
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 131.7%;
+    color: #86DA44;
+}
+.pi{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    padding-left: 130px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 11px;
+}
+.prinsip__right{
+    width: 599px;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(image/background__main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    margin-left: 50px;
+    margin-top: 60px;
+    position: relative;
+}
+.prinsip__right svg{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+.uslugii{
+    padding-top: 99px;
+    display: flex;
+    justify-content: space-between;
+}
+.uslugi__left h1{
+    font-size: 75px;
+    color: rgba(255, 255, 255, 0.1);
+    transform: translateY(15px);
+}
+.uslugi__left h2{
+    font-size: 33px;
+    color: #FFFFFF;
+    border-left: 2px solid #86DA44;
+    padding-left: 32px;
+    transform: translateX(85px);
+}
+.uslugi__left p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 200.27%;
+    color: #FFFFFF;
+    padding-left: 117px;
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+.uslugii__left__list{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: justify;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    padding-left: 117px;
+}
+.line{
+    background: #86DA44;
+    width: 150px;
+    height: 2px;
+    transform: translateX(117px);
+}
+.uslugi__left{
+    padding-bottom: 267px;
+}
+.uslugi__right{
+    width: 605px;
+    height: 60vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(image/house.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 90px;
+}
+.uslugi__right svg{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+.bg-dizayner{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(image/dizayner_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.dizayner{
+    display: flex;
+    justify-content: space-around;
+}
+.dizayner__arxitectura{
+    display: flex;
+    align-items: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.dizayner__arxitectura h1{
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 106.7%;
+    color: #86DA44;
+    padding-right: 32px;
+}
+.dizayner__arxitectura h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 128.2%;
+    color: #FFFFFF;
+}
+.proect__text h1{
+    font-size: 90px;
+    line-height: 131.7%;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.1);
+    padding-top: 95px;
+}
+.proect__text h2{
+    font-size: 36px;
+    line-height: 131.7%;
+    text-transform: uppercase;
+    color: #86DA44;
+    border-left: 2px solid #86DA44;
+    padding-left: 32px;
+    margin-left: 120px;
+    transform: translateY(-25px);
+}
+.proect__image{
+    display: flex;
+    margin-left: 30px;
+    gap: 30px;
+}
+.images__companii{
+    margin-top: 91px;
+    margin-bottom: 72px;
+    position: relative;
+}
+.catej{
+    transform: translateY(-60px);
+}
+.icon_proect{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.69);
+    backdrop-filter: blur(6.00456px);
+    transform: translateY(-80px);
+    padding: 28px 35px 28px 24px;
+    opacity: 0;
+    transition: .5s;
+}
+.images__companii:hover .icon_proect{
+    opacity: 1;
+    cursor: pointer;
+}
+.icon_proect h4{
+    font-size: 15px;
+    line-height: 121.7%;
+    color: #FFFFFF;
+    border-right: 0.706418px solid rgba(255, 255, 255, 0.78);
+    padding-right: 40px;
+    transition: .3s;
+}
+.icon_proect img{
+    transform: translateX(20px); 
+}
+.icon_proect h4:hover{
+    color: #86DA44;
+}
+.lines__center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 110px;
+
+}
+.line__twoo{
+    width: 660px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.55);
+}
+.line__twoo__center{
+    width: 185px;
+    height: 4px;
+    background: #86DA44;
+}
+.konsultatsi__partnyori h1{
+    font-size: 90px;
+    line-height: 131.7%;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.1);
+}
+.konsultatsi__partnyori h2{
+    font-size: 36px;
+    line-height: 131.7%;
+    text-transform: uppercase;
+    color: #86DA44;
+    border-left: 2px solid #86DA44;
+    padding-left: 33px;
+    transform: translateY(-30px);
+    margin-left: 130px;
+}
+.konsultatsi__partnyori{
+    margin-bottom: 49px;
+}
+.konsultatsiya__icon{
+    display: flex;
+    align-items: center;
+    gap: 192px;
+    justify-content: center;
+}
+.icon__bank{
+    margin-bottom: 50px;
+}
+.konsultatsiya__icon img{
+    width: 150px;
+    height: 30px;
+}
+.konsultatsii{
+    padding-bottom: 95px;
+}
+.villa{
+    width: 462px;
+    height: 490px;
+}
+.icon_proect img:active{
+    opacity: .4;
+}
+
+
+
+
+/* media-css-start */
+
+@media (max-width: 1492px){
+    .proect__image{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .images__companii{
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .catej{
+        transform: none;
+    }
+    .images__companii{
+        position: relative;
+    }
+    .icon_proect{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.69);
+        backdrop-filter: blur(6.00456px);
+        transform: translateY(-80px);
+        padding: 28px 35px 28px 24px;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+   
+    .icon_proect h4{
+        font-size: 15px;
+        line-height: 121.7%;
+        color: #FFFFFF;
+        border-right: 0.706418px solid rgba(255, 255, 255, 0.78);
+        padding-right: 40px;
+    }
+    .icon_proect img{
+        transform: translateX(20px); 
+    }
+    .lines__center{
+        margin-top: 70px;
+    }
+
+}
+
+@media (max-width: 1425px){
+    .main{
+        align-items: center;
+    }
+}
+@media (max-width: 1351px){
+
+    .main__prinsipi{
+        flex-direction: column;
+    }
+    .uslugii{
+        flex-direction: column;
+        align-items: center;
+    }
+    .uslugi__left{
+        padding-bottom: 0;
+    }
+    .uslugi__right{
+        margin-bottom: 70px;
+    }
+    .proect{
+        display: grid;
+        place-items: center;
+    }
+    .konsultatsii{
+        display: grid;
+        place-items: center;
+    }
+
+}
+@media (max-width: 1289px){
+    .dizayner{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .dizayner__arxitectura{
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1281px){
+    .konsultatsiya__icon{
+        gap: 10px;
+    }
+}
+@media (max-width: 1189px){
+    .dizayner{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (max-width: 1106px){
+    .container{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .proect__image{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .lines__center{
+        margin-top: 130px;
+    }
+}
+@media (max-width: 876px){
+    .container{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 814px){
+    .lines__center{
+        width: 640px;
+        margin: 30px auto;
+    }
+}
+@media (max-width: 811px){
+    .container{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 777px){
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 711px){
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .konsultatsiya__icon{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .konsultatsiya__icon img{
+        margin-bottom: 30px;
+        gap: 50px;
+    }
+}
+@media (max-width: 692px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 658px){
+    .container{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .lines__center{
+        width: 80%;
+    }
+}
+@media (max-width: 626px){
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 594px){
+    .prinsip__right, .uslugi__right{
+        width: 100%;
+    }
+    .konsultatsi__partnyori h1{
+        font-size: 70px;
+        line-height: 131.7%;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.1);
+    }
+    .konsultatsi__partnyori h2{
+        font-size: 26px;
+        line-height: 131.7%;
+        text-transform: uppercase;
+        color: #86DA44;
+        border-left: 2px solid #86DA44;
+        padding-left: 33px;
+        transform: translateY(-20px);
+        margin-left: 130px;
+    }
+}
+@media (max-width: 626px){
+    .prinsip__right{
+        width: 100%;
+    }
+    .proect__image{
+        width: 80%;
+        padding-left: 25px;
+    }
+    .proect__text h1{
+        font-size: 75px;
+    }
+    .proect__text h2{
+        font-size: 30px;
+    }
+    .prinsip__left h2{
+        font-size: 25px;
+    }
+}
+@media (max-width: 456px){
+    .proect__image{
+        width: 80%;
+    }
+    .konsultatsi__partnyori h1{
+        font-size: 65px;
+    }
+    .uslugi__left h2{
+        font-size: 30px;
+    }
+    .prinsip__left h2{
+        font-size: 20px;
+    }
+    .villa{
+        width: 100%;
+    }
+}
+@media (max-width:420px){
+    .uslugi__left h2{
+        font-size: 23px;
+        font-weight: 400;
+        transform: none;
+        margin-left: 25px;
+    }
+    .uslugi__left p{
+        padding-left: 60px;
+    }
+    .uslugii__left__list{
+        padding-left: 60px;
+    }
+    .line{
+        transform: none;
+        margin-left: 60px;
+    }
+    .konsultatsi__partnyori h1{
+        font-size: 60px;
+    }
+    .proect__text h1{
+        font-size: 67px;
+    }
+    .proect__text h2{
+        font-size: 27px;
+    }
+}
+@media (max-width:392px){
+    .prinsip__right{
+        width: 90%;
+    }
+    .prinsip__right svg{
+        left: 35%;
+    }
+    .konsultatsi__partnyori h1{
+        font-size: 55px;
+    }
+    .konsultatsi__partnyori h2{
+        margin-left: 90px;
+    }
+    .proect__text h1{
+        font-size: 63px;
+    }
+}
+@media (max-width:361px){
+    .proect__text h1{
+        font-size: 57px;
+    }
+    .proect__text h2{
+        margin-left: 80px;
+    }
+}
+
+/* media-css-end */
